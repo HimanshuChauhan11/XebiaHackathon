@@ -38,7 +38,7 @@ header {
   background: #fff;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
     0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  height: 100%;
+  /* height: 100%; */
   max-height: 100%;
   min-height: 100vh;
   padding: 15px 0;
@@ -114,90 +114,6 @@ header .navbar ul li a img {
 
 /*============  End of HEADER  =============*/
 
-/*=============================================
-=                   CONTENT                   =
-=============================================*/
-
-.content {
-  height: 100%;
-  max-height: 100%;
-  min-height: 100vh;
-  background-color: #eeeeee;
-  padding: 50px 0;
-}
-
-.card-stats {
-  justify-content: space-evenly;
-}
-
-.card-stats .card {
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-  background-color: white;
-  border-radius: 10px;
-  position: relative;
-  padding: 15px;
-  overflow: visible;
-}
-
-.card-stats .card .card-icon {
-  width: min-content;
-  padding: 15px;
-  position: absolute;
-  top: -20px;
-  /* left: 0; */
-}
-
-.card-stats .card:nth-child(1) .card-icon,
-.card-stats .card:nth-child(1) .card-footer {
-  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
-    0 7px 10px -5px rgba(255, 152, 0, 0.4);
-  background: linear-gradient(60deg, #ffa726, #fb8c00);
-}
-.card-stats .card:nth-child(2) .card-icon,
-.card-stats .card:nth-child(2) .card-footer {
-  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
-    0 7px 10px -5px rgba(76, 175, 80, 0.4);
-  background: linear-gradient(60deg, #66bb6a, #43a047);
-}
-.card-stats .card:nth-child(3) .card-icon,
-.card-stats .card:nth-child(3) .card-footer {
-  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
-    0 7px 10px -5px rgba(244, 67, 54, 0.4);
-  background: linear-gradient(60deg, #ef5350, #e53935);
-}
-
-.card-icon img {
-  height: 56px;
-  width: 56px;
-}
-
-.card-stats .card-category {
-  text-align: right;
-  /* font-size: 25px; */
-  color: #999999;
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.card-stats .card-title {
-  font-size: 25px;
-  font-weight: 300;
-  text-align: right;
-  line-height: 1.4;
-}
-
-.card-stats .card .card-footer {
-  border: none;
-}
-
-.card-stats .card .card-footer a {
-  border: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/*============  End of CONTENT  =============*/
 /*
  * Off Canvas at medium breakpoint
  * --------------------------------------------------
@@ -265,4 +181,11 @@ header .navbar ul li a img {
   -o-transform: rotate(-44deg);
   -ms-transform: rotate(-44deg);
   transform: rotate(-44deg);
+}
+/* Charts */
+.charts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
 }
