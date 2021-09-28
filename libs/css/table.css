@@ -1,0 +1,75 @@
+/*=============================================
+=                   TABLE                   =
+=============================================*/
+
+section {
+  width: 100%;
+}
+
+.content {
+  padding: 60px 15px 10px;
+  padding-top: clamp(70px, 8%, 180px);
+}
+
+.container-fluid .row {
+  width: 65vw !important;
+}
+
+.content .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content .card {
+  overflow: visible;
+}
+
+.card .card-header {
+  margin: 0px 15px 0;
+  background: linear-gradient(60deg, #ab47bc, #8e24aa);
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(156, 39, 176, 0.4);
+  border-radius: 3px;
+  margin-top: -20px;
+  padding: 15px;
+  /* margin-bottom: 20px; */
+}
+
+.card .card-header h2 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: 7px;
+  color: white;
+}
+
+.card .card-header h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.content .table {
+  overflow: scroll !important;
+  width: max-content;
+}
+
+.table th {
+  padding: 12px 8px;
+  vertical-align: middle;
+  border-color: #ddd;
+  color: rgb(156, 39, 176);
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  border: none !important;
+}
+
+/*============  End of TABLE  =============*/
