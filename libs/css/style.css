@@ -185,7 +185,8 @@ header .navbar ul li a img {
 /* Charts */
 .charts {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin: 20px 20px;
+  margin-top: 75px;
+  justify-content: space-around;
 }
