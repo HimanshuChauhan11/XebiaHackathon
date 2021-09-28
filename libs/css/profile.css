@@ -1,0 +1,163 @@
+/*=============================================
+=                   PROFILE                   =
+=============================================*/
+
+.dashboard section {
+  padding: 50px 25px;
+  background-color: #eeeeee;
+}
+
+.dashboard .profile-form > .card {
+  overflow: visible;
+}
+
+.dashboard .profile-about {
+  margin-left: auto;
+  border: none;
+  height: min-content;
+}
+
+.dashboard .profile-form .form-title {
+  margin: 0px 15px 0;
+  background: linear-gradient(60deg, #ab47bc, #8e24aa);
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(156, 39, 176, 0.4);
+  border-radius: 3px;
+  margin-top: -20px;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.dashboard .profile-form .form-title h2 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: 7px;
+  color: white;
+}
+
+.dashboard .profile-form .form-title h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.profile-form input,
+.profile-form select {
+  color: #495057;
+  font-size: 14px;
+  margin-top: 8px;
+  border-bottom: 1px solid #e8e8e8 !important;
+}
+
+.profile-form input:focus,
+.profile-form select:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #9c27b0 !important;
+}
+
+.profile-form .name {
+  max-width: 50% !important;
+}
+.profile-form .gender {
+  max-width: 30% !important;
+}
+.profile-form .email {
+  max-width: 70% !important;
+}
+.profile-form .street {
+  max-width: 50% !important;
+}
+.profile-form .city {
+  max-width: 50% !important;
+}
+.profile-form .state {
+  max-width: 65% !important;
+}
+.profile-form .zip {
+  max-width: 35% !important;
+}
+
+.account-settings .user-profile {
+  margin: 0 0 1rem 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.account-settings .user-profile .user-avatar {
+  margin: 0 0 1rem 0;
+}
+
+.account-settings .user-profile .user-avatar img {
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.account-settings .user-profile h5.user-name {
+  margin: 0 0 0.5rem 0;
+}
+
+.account-settings .user-profile h6.user-email {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9fa8b9;
+}
+
+.account-settings .about {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+
+.account-settings .about h5 {
+  margin: 0 0 15px 0;
+  color: #007ae1;
+}
+
+.account-settings .about p {
+  font-size: 0.825rem;
+}
+
+.form-control {
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  /* border-bottom: 1px solid #000 !important; */
+  /* font-size: 0.825rem; */
+  background: #ffffff;
+  color: #2e323c;
+}
+
+.profile-form .btn-primary {
+  box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42),
+    0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+  color: #fff !important;
+  background-color: #9124a3 !important;
+  border-color: #701c7e !important;
+  padding: 10px 20px;
+  margin: 15px 10px 5px;
+}
+
+/* .container .row {
+    flex-wrap: wrap-reverse;
+  } */
+.dashboard .card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: none !important;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.dashboard .profile-form .card-body {
+  padding: 5px 20px;
+}
+
+/*============  End of PROFILE  =============*/
