@@ -1,0 +1,309 @@
+.dashboard {
+  background-color: #eeeeee;
+}
+
+/*=============================================
+=                   Details                   =
+=============================================*/
+.dashboard .details {
+  padding: 50px 25px;
+}
+
+.details .profile-form > .card {
+  overflow: visible;
+}
+
+.details .profile-about {
+  margin-left: auto;
+  border: none;
+  height: min-content;
+}
+
+.details .profile-form .form-title {
+  margin: 0px 15px 0;
+  background: linear-gradient(60deg, #ab47bc, #8e24aa);
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(156, 39, 176, 0.4);
+  border-radius: 3px;
+  margin-top: -20px;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.details .profile-form .form-title h2 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: 7px;
+  color: white;
+}
+
+.details .profile-form .form-title h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.details .profile-form .name {
+  max-width: 30% !important;
+}
+.details .profile-form .gender {
+  max-width: 30% !important;
+}
+.details .profile-form .email {
+  max-width: 40% !important;
+}
+.details .profile-form .street {
+  max-width: 45% !important;
+}
+.details .profile-form .city {
+  max-width: 45% !important;
+}
+.details .profile-form .state {
+  max-width: 45% !important;
+}
+.details .profile-form .zip {
+  max-width: 45% !important;
+}
+
+.details .profile-form .gutters {
+  padding: 0 30px;
+}
+
+.account-settings .user-profile {
+  margin: 0 0 1rem 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.details .account-settings .user-profile .user-avatar {
+  margin: 0 0 1rem 0;
+}
+
+.details .account-settings .user-profile .user-avatar img {
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.details .account-settings .user-profile h5.user-name {
+  margin: 0 0 0.5rem 0;
+}
+
+.details .account-settings .user-profile h6.user-email {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9fa8b9;
+}
+
+.details .account-settings .about {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+
+.details .account-settings .about h5 {
+  margin: 0 0 15px 0;
+  color: #007ae1;
+}
+
+.details .account-settings .about p {
+  font-size: 0.825rem;
+}
+
+.profile-form .btn-primary {
+  box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42),
+    0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+  color: #fff !important;
+  background-color: #9124a3 !important;
+  border-color: #701c7e !important;
+  padding: 10px 20px;
+  margin: 15px 10px 5px;
+}
+
+/* .container .row {
+      flex-wrap: wrap-reverse;
+    } */
+.details .dashboard .card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: none !important;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.details .dashboard .profile-form .card-body {
+  padding: 5px 20px;
+}
+
+/*============  End of PROFILE  =============*/
+
+/*=============================================
+=                   Leave                   =
+=============================================*/
+
+.dashboard .leave {
+  padding: 50px 25px;
+  background-color: #eeeeee;
+}
+
+.leave .profile-form .gutters {
+  padding: 0 25px;
+}
+
+.leave .profile-form > .card {
+  overflow: visible;
+}
+
+.leave .profile-about {
+  margin-left: auto;
+  border: none;
+  height: min-content;
+}
+
+.leave .profile-form .form-title {
+  margin: 0px 15px 0;
+  background: linear-gradient(60deg, #ab47bc, #8e24aa);
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(156, 39, 176, 0.4);
+  border-radius: 3px;
+  margin-top: -20px;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.leave .profile-form .form-title h2 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: 7px;
+  color: white;
+}
+
+.leave .profile-form .form-title h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.profile-form input,
+.profile-form select,
+.profile-form textarea {
+  color: #495057;
+  border: none;
+  font-size: 14px;
+  margin-top: 8px;
+  border-bottom: 1px solid #e8e8e8 !important;
+}
+.form-group textarea {
+  width: 100%;
+}
+.profile-form input:focus,
+.profile-form select:focus,
+.profile-form textarea:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #9c27b0 !important;
+}
+
+.leave .profile-form .name {
+  max-width: 50% !important;
+}
+.leave .profile-form .email {
+  max-width: 50% !important;
+}
+.leave .profile-form .state {
+  max-width: 65% !important;
+}
+.leave .profile-form .zip {
+  max-width: 35% !important;
+}
+
+.account-settings .user-profile {
+  margin: 0 0 1rem 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.account-settings .user-profile .user-avatar {
+  margin: 0 0 1rem 0;
+}
+
+.account-settings .user-profile .user-avatar img {
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.account-settings .user-profile h5.user-name {
+  margin: 0 0 0.5rem 0;
+}
+
+.account-settings .user-profile h6.user-email {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9fa8b9;
+}
+
+.account-settings .about {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+
+.account-settings .about h5 {
+  margin: 0 0 15px 0;
+  color: #007ae1;
+}
+
+.account-settings .about p {
+  font-size: 0.825rem;
+}
+
+.form-control {
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  /* border-bottom: 1px solid #000 !important; */
+  /* font-size: 0.825rem; */
+  background: #ffffff;
+  color: #2e323c;
+}
+
+.profile-form .btn-primary {
+  box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42),
+    0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+  color: #fff !important;
+  background-color: #9124a3 !important;
+  border-color: #701c7e !important;
+  padding: 10px 20px;
+  margin: 15px 10px 5px;
+}
+
+/* .container .row {
+    flex-wrap: wrap-reverse;
+  } */
+.dashboard .card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: none !important;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.dashboard .profile-form .card-body {
+  padding: 5px 20px;
+}
+
+/*============  End of PROFILE  =============*/
